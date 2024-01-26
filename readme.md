@@ -21,7 +21,8 @@ pip install -e .
 cd ..
 ```
 - `uvicorn --host 0.0.0.0 --port 18021 main:app`などで起動します。ポート番号はローカルのVoicevoxと被らないようにしてください。
+- LMMChatで使用する場合は、`voicevoxbaseurl`を修正してください。
 
-- 使用ライブラリ
+# 使用ライブラリ
 - [Lycoris53/Vits-TTS-Japanese-Only-Amitaro](https://huggingface.co/Lycoris53/Vits-TTS-Japanese-Only-Amitaro)
 - [(Spaces) Lycoris53/VITS-TTS-Japanese-Only-Amitaro](https://huggingface.co/spaces/Lycoris53/VITS-TTS-Japanese-Only-Amitaro/tree/main)
